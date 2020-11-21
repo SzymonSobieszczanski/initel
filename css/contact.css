@@ -1,0 +1,35 @@
+.contact-row {
+    display: block;
+}
+
+.contact-column-title {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.contact-data {
+    margin-top: 2em;
+}
+
+.contact-column {
+    margin-bottom: 1em;
+}
+
+.bold {
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.contact-link {
+    color: #da2021
+}
+
+.contact-link:hover {
+    color: #ab0001
+}
+
+.contact-link:visited {
+    color: #ab0001
+}

@@ -1,0 +1,310 @@
+.main-caption {
+    font-size: 1.5em;
+}
+
+.header-captions {
+    color: white;
+    text-transform: uppercase;
+    width: 400px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.carousel-card {
+    width: 100%!important;
+    height: 300px!important;
+}
+
+#shop-card {
+    display: none;
+}
+
+.card-content {
+    margin-top: 20px;
+}
+
+.carousel .carousel-inner {
+    height: 200px !important;
+    margin-bottom: 0px !important;
+    background: none;
+    width: 420px;
+}
+
+.card-link {
+    text-transform: uppercase;
+    color: #022b62;
+    font-weight: 700;
+}
+
+.close {
+    position: absolute;
+    right: 2px;
+    top: 3px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+    z-index: 999999;
+}
+
+.carousel-card .carousel-item {
+    margin-top: 2em;
+}
+
+.card-indicator {
+    background-color: #022b62 !important;
+}
+
+.card-carousel-indicators {
+    margin-bottom: -74px;
+}
+
+.close:hover {
+    opacity: 1;
+}
+
+.close:before,
+.close:after {
+    position: absolute;
+    left: 16px;
+    content: ' ';
+    height: 19px;
+    width: 2px;
+    background-color: #333;
+}
+
+.close:before {
+    transform: rotate(45deg);
+}
+
+.close:after {
+    transform: rotate(-45deg);
+}
+
+.link-to-shop-container {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+    background-color: #022b62;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.link-to-shop {
+    color: white;
+}
+
+.link-to-shop:hover {
+    color: #eee;
+    font-size: 1.03em;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 250px;
+    height: 330px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 99999;
+}
+
+.card img {
+    height: 70%;
+    width: 90%!important;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+/* Add some padding inside the card container */
+
+.container {
+    padding: 2px 16px;
+}
+
+.typewriter h1 {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 12%;
+    letter-spacing: .15em;
+    animation: typing 1.5s steps(40, end), blink-caret .75s step-end infinite;
+    width: 50%;
+    margin-top: 2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white!important;
+}
+
+.typewriter2 p {
+    overflow: hidden;
+    border-right: unset;
+    white-space: nowrap;
+    margin: 0 12%;
+    letter-spacing: .15em;
+    width: 50%;
+    margin-top: 2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white!important;
+}
+
+.animated.fadeIn {
+    --animate-duration: 2s;
+}
+
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 40%
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: transparent
+    }
+}
+
+header span.animated {
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    bottom: 50px;
+    height: 200px;
+    width: 4px;
+    z-index: 999;
+    border-radius: 2px;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+.logo.animated {
+    animation-duration: 2.5s;
+}
+
+header span::before,
+header span::after {
+    position: absolute;
+    top: -23px;
+    content: "";
+    height: 30px;
+    width: 4px;
+    background: none;
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+header span::before {
+    left: -10px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+header span::after {
+    right: -10px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.carousel-indicators {
+    position: absolute;
+    /* right: 60%; */
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 0%;
+    margin-left: 0%;
+    list-style: none;
+    width: 100%;
+}
+
+@media all and (max-width:465px) {
+    .link-to-shop-container {
+        display: none;
+    }
+    #header-video {
+        display: none;
+    }
+    #shop-card {
+        display: none!important;
+    }
+    .slick-container {
+        display: none;
+    }
+    header {
+        display: none;
+    }
+    #projects {
+        margin-top: 2em;
+    }
+    #mainNav .navbar-toggler {
+        font-size: 174%;
+        padding: 0.75rem;
+        color: #64a19d;
+        border: 1px solid #64a19d;
+    }
+    .link {
+        text-align: center !important;
+        padding: 6px;
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .link a {
+        color: #022b62 !important;
+    }
+    .footer-header {
+        margin-top: 1.5em;
+    }
+    .projects-section {
+        padding-bottom: 0 !important;
+    }
+}
